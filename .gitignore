@@ -1,0 +1,12 @@
+**/.env
+**/.env.*
+!**/.env.example
+**/node_modules/
+**/vendor/
+**/dist/
+**/*.sqlite
+**/*.sqlite-*
+.tools/
+.DS_Store
+**/test-results/
+**/playwright-report/

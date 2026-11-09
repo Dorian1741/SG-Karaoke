@@ -1,0 +1,44 @@
+.health-page {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 12vh 24px;
+}
+.health-page .eyebrow {
+  color: #c4b5fd;
+  letter-spacing: 0.16em;
+  font-size: 0.75rem;
+}
+.health-page h1 {
+  font-size: clamp(3rem, 10vw, 5rem);
+  margin: 16px 0;
+}
+.health-page h2 {
+  font-size: 1.3rem;
+}
+.health-page section {
+  margin-top: 40px;
+  padding: 28px;
+  border: 1px solid #45405a;
+  border-radius: 16px;
+  background: #201d30;
+}
+.health-page .success {
+  color: #86efac;
+}
+.health-page .error {
+  color: #fda4af;
+}
+.health-page button {
+  margin-top: 16px;
+  border: 0;
+  border-radius: 8px;
+  padding: 12px 18px;
+  background: #c4b5fd;
+  color: #201535;
+  font: inherit;
+  cursor: pointer;
+}
+.health-page button:focus-visible {
+  outline: 3px solid white;
+  outline-offset: 4px;
+}
